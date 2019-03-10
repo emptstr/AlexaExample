@@ -1,0 +1,31 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.3d743c01-bbc9-490f-994f-56f05f0048dd",
+      "resources": {
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "awsRegion": "us-west-2",
+            "codeUri": "./src/main/java",
+            "functionName": "TestAlexaFunction",
+            "handler": "testalexa.skill.handler.TestAlexaSkillStreamHandler",
+            "runtime": "java8"
+          }
+        ],
+        "manifest": {
+          "eTag": "ea8bacb7090a184968762c8c14ae69bb"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "7bb39d9cc31b278f75824143da6e13a3"
+          }
+        }
+      },
+      "was_cloned": false,
+      "merge": {}
+    }
+  }
+}
